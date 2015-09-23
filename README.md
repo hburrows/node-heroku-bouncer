@@ -1,7 +1,7 @@
-# node-heroku-bouncer [![Build Status](https://travis-ci.org/heroku/node-heroku-bouncer.svg?branch=master)](https://travis-ci.org/heroku/node-heroku-bouncer)
+# node-heroku-bouncer
 
 node-heroku-bouncer is an easy-to-use module for adding Heroku OAuth
-authentication to Express 4 apps.
+authentication to Express 4 apps.  The repo is a fork of heroku/node-heroku-bouncer repo with modification/enhancements specific to Heroku Connect usage.
 
 ## Install
 
