@@ -77,6 +77,7 @@ function setOptions(options) {
     oAuthServerURL    : 'https://id.heroku.com',
     oAuthScope        : 'identity',
     sessionSyncNonce  : null,
+    basePath          : '/',
   };
 
   for (var key in defaults) {

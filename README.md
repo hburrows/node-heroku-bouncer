@@ -82,6 +82,8 @@ To log a user out, send them to `/auth/heroku/logout`.
 | `ignoredRoutes` | No | `[]` | An array of regular expressions to match routes to be ignored when there is no session active |
 | `oAuthServerURL` | No | `"https://id.heroku.com"` | The location of the Heroku OAuth server |
 | `herokaiOnlyHandler` | No | `null` | A route handler that will be called on requests by non-Herokai |
+| `basePath` | No | `/` | The base path to prepend to redirect urls if app is not served from root |
+
 
 ## Test
 
