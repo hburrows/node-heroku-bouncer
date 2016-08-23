@@ -17,10 +17,11 @@
   },
   "homepage": "https://github.com/jclem/node-heroku-bouncer",
   "dependencies": {
-    "oauth": "~0.9.11",
-    "express": "~4.1.1",
-    "heroku-client": "^1.6.0",
     "bluebird": "^2.2.2",
+    "express": "~4.1.1",
+    "fernet": "^0.3.0",
+    "heroku-client": "^1.6.0",
+    "oauth": "~0.9.11",
     "request": "^2.37.0",
     "simple-encryptor": "^1.0.2"
   },
