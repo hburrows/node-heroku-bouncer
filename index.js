@@ -71,13 +71,15 @@ function setOptions(options) {
   }
 
   var defaults = {
-    herokaiOnlyHandler: null,
-    herokuAPIHost     : null,
-    ignoredRoutes     : [],
-    oAuthServerURL    : 'https://id.heroku.com',
-    oAuthScope        : 'identity',
-    sessionSyncNonce  : null,
-    basePath          : '/',
+    basePath            : '/',
+    herokaiOnlyHandler  : null,
+    herokuAPIHost       : null,
+    ignoredRoutes       : [],
+    newSessionCallback  : null
+    oAuthServerURL      : 'https://id.heroku.com',
+    oAuthScope          : 'identity',
+    oAuthState          : null,
+    sessionSyncNonce    : null,
   };
 
   for (var key in defaults) {
