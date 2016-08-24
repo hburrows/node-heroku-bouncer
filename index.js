@@ -75,7 +75,7 @@ function setOptions(options) {
     herokaiOnlyHandler  : null,
     herokuAPIHost       : null,
     ignoredRoutes       : [],
-    newSessionCallback  : null
+    newSessionCallback  : null,
     oAuthServerURL      : 'https://id.heroku.com',
     oAuthScope          : 'identity',
     oAuthState          : null,
