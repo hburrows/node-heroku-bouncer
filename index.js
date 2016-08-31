@@ -25,6 +25,8 @@ var routes     = require('./lib/router');
  * @param {String} options.encryptionSecret a user information encryption secret
  * @param {String} options.oAuthClientID a Heroku OAuth client ID
  * @param {String} options.oAuthClientSecret a Heroku OAuth client secret
+ * @param {String | Function} [options.oAuthClient=null] optional oauth state or function
+ *   that returns oauth state to be passed to oauth/authorize endpoint
  * @param {String} [options.herokuAPIHost=null] optionally override the host
  *   that API requests are sent to (defaults in the Node Heorku client to
  *   'api.heroku.com').
